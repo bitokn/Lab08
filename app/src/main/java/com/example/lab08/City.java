@@ -1,5 +1,5 @@
 package com.example.lab08;
-//city.java file
+//city.java file p
 public class City {
     private String city;
     private String province;
