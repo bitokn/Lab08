@@ -30,4 +30,27 @@ public class CustomListTest {
 
     }
 
+    public void testCountCities(){
+        // We'll add two cities and test if the count is correct
+        CustomList list = new CustomList();
+        City calgary = new City("Calgary", "Alberta");
+        City toronto = new City("Toronto", "Ontario");
+        list.addCity(calgary);
+        list.addCity(toronto);
+
+        assertEquals(2, list.countCities());
+
+        // Now we test, 0, 1 and greater than or equal to 2, but we already did 2
+        list.deleteCity(calgary);
+        assertEquals(1, list.countCities());
+
+        // finally, empty case
+        list.deleteCity(toronto);
+        assertEquals(0, list.countCities());
+
+    }
+
+}
+
+
 }
