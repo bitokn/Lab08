@@ -14,5 +14,5 @@ N/A
 
 | Student Name | CCID     |
 | ------------ | -------- |
-| `Braden Woods` | `bgwoods` |
+| `<example1>` | `<CCID>` |
 | `<example2>` | `<CCID>` |
